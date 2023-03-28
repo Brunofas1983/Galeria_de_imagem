@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo Jquery</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Lato:wght@900&family=Roboto&display=swap" rel="stylesheet">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Galeria de Imagens</h1>
+        <button type="submit">Nova Imagem +</button>
+    </header>
+    <form>
+        <h2>Inserir nova Imagem</h2>
+        <input type="url" id="endereco-imagem-nova" placeholder="Url da Imagem" required>
+        <button type="submit">Adcionar</button>
+        <button id="cancel" type="reset">Cancelar</button>
+    </form>
+    <ul>
+        <li>
+            <img src="./images/foto1.jpg" alt="pintura de gato">
+            <div class="overley-image-link">
+                <a href="./images/foto1.jpg" title="Ver imagem">Ver Imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="./images/foto2.jpg" alt="imagem cisne">
+            <div class="overley-image-link">
+                <a href="./images/foto2.jpg" title="Ver imagem" target="blank">Ver Imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="./images/foto3.jpg" alt="imagens de cachorros">
+            <div class="overley-image-link">
+                <a href="./images/foto3.jpg" title="Ver imagem" target="blank">Ver Imagem em tamanho real</a>
+            </div>
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</body>
+</html>
